@@ -1,0 +1,86 @@
+.back-arrow {
+	color: #2D9CDB;
+	margin-right: 10px;
+}
+
+.page-header-text {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 49px;
+	letter-spacing: -0.035em;
+	color: #000000;
+}
+
+.page-header-subtext {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.035em;
+	color: #000000;	
+}
+
+.last-seen-date {
+	font-size: 15px !important;
+	color: gray;
+}
+
+.card-reset {
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 12px;	
+  }
+
+  .reset-list-group-item-border {
+    border: 1px solid #E0E0E0;
+  }
+
+  .profile-image {
+	  border-radius: 18px;
+  }
+
+  .user-info-label {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.035em;
+	color: #BDBDBD;
+  }
+
+  .user-info-data {
+	font-family: 'Noto Sans';
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.035em;
+	color: #333333;
+  }
+
+  .profile-sub-title-reset {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.035em;
+	color: #828282;
+	margin-top: -5px;	
+  }
+
+  .edit-button-reset {
+	width: 95.34px;
+	height: 38px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+  }
+

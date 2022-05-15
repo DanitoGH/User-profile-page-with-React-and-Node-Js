@@ -1,0 +1,14 @@
+.logout-button,
+.logout-button:hover {
+   color: #EB5757;
+}
+
+.navbar-brand {
+   color: #282051;
+   font-weight: bold;
+}
+
+.dropdown-toggle {
+   color: #333333;
+   font-weight: bold;
+}

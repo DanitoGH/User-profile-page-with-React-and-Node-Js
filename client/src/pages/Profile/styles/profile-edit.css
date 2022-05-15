@@ -1,0 +1,110 @@
+.back-arrow {
+	color: #2D9CDB;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.edit-camera-icon {
+	position: absolute;
+	top: 110px;
+	left: 40px;
+	color: #ffffff;
+	font-size: 22px;
+}
+
+.card-reset {
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 12px;	
+  }
+
+  .reset-list-group-item-border {
+    border: 1px solid #E0E0E0;
+  }
+
+  .profile-image-preview {
+	  border-radius: 18px;
+      background: rgba(0, 0, 0, 0.2);
+  }
+
+ .label{
+	width: 100%;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+  }
+
+  .user-info-label {
+	/* font-family: 'Noto Sans'; */
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 18px;
+	/* identical to box height */
+	letter-spacing: -0.035em;
+	color: #828282;
+  }
+  
+  #nameFormControlInput,
+  #phoneFormControlInput,
+  #emailFormControlInput,
+  #passwordFormControlInput
+   {
+	 width: 416.93px;
+	 height: 52px;
+	 border: 1px solid #828282;
+	 box-sizing: border-box;
+	 border-radius: 12px; 
+  }
+   
+ #bioFormControlInput {
+	width: 416.93px;
+	height: 91.58px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+ }
+  
+ input::-webkit-input-placeholder {
+  color: #BDBDBD;							
+ }
+  
+  .button-style {
+	width: 82px;
+	height: 38px;
+	background: #2F80ED;
+	border-radius: 8px;
+	z-index: 1000;
+  }
+
+  .user-info-data {
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.035em;
+	color: #333333;
+  }
+
+  .profile-sub-title-reset {
+	/* font-family: 'Noto Sans'; */
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.035em;
+	color: #828282;
+	margin-top: -5px;	
+  }
+
+  .edit-button-reset {
+	width: 95.34px;
+	height: 38px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+  }
+

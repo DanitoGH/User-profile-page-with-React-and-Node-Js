@@ -1,0 +1,134 @@
+.hero-title {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+
+.hero-sub-title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: -0.035em;
+	color: #333333;
+}
+
+.form-inputs {
+	border: 1px solid #BDBDBD;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.register-button {
+	background: #2F80ED;
+    border-radius: 8px;
+}
+
+.continue-with-social-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	/* identical to box height */
+	letter-spacing: -0.035em;
+	color: #828282;
+}
+
+.already-a-member {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #828282;
+}
+
+/* Social Media Login Icon Styles*/
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoRss:hover {
+	background-color: #f56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color: #3b5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color: #33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color: #bd3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color: #0590b8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color: #007bb7;
+}
+.social-network a.icoRss:hover svg,
+.social-network a.icoFacebook:hover svg,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+	color: #fff;
+}
+a.socialIcon:hover,
+.socialHoverClass {
+	color: #44bcdd;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 8px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 50px;
+    /* height: 50px; */
+    font-size: 20px;
+    border: 1px solid #828282;
+}
+
+.social-circle li svg {
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+}
+
+.social-circle li a:hover svg,
+.triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle svg {
+    color: #828282;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
