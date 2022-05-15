@@ -9,7 +9,13 @@ const connectDB = async () => {
         .then(() => {
             console.log("Database connected....")
         })
-       .catch((err) => console.log("Error:" + err.message))
+       .catch((err) => {
+            if (process.env.NODE_ENV !== 'production') {
+                createError(500, 'Database connection error')
+            }else {
+                createError(500, 'Internal Server Error')
+            }
+       })
 }
 
 module.exports =  { connectDB }
