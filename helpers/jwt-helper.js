@@ -14,7 +14,7 @@ module.exports = {
            return accessToken
     },
     signRefreshToken: async (userEmail) => {
-        const accessToken = jwt.sign({
+        const refreshToken = jwt.sign({
             iss: process.env.BASE_URL, // issuer
             aud: process.env.JWT_AUDIENCE,  // audience
             email: userEmail  // payload
@@ -22,7 +22,7 @@ module.exports = {
               process.env.REFRESH_TOKEN_SECRET, {
               expiresIn: '7d'  // expires in 7 days
            })
-          return accessToken
+          return refreshToken
     },
     verifyRefreshToken: async (refreshToken) => {
         const result = jwt.verify( 
