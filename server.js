@@ -14,7 +14,7 @@ const startServer = async () => {
     const apolloServer = new ApolloServer({
         typeDefs,
         resolvers,
-        context: ({ req, res }) => ({ req, res })  // forwarding espress request and response objects to context
+        context: ({ req, res }) => ({ req, res })  // forwarding express request and response objects to context
     })
 
     await apolloServer.start()

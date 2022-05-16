@@ -24,15 +24,15 @@ module.exports = {
            const refreshToken = cookies?.jwt
 
             // evaluate jwt
-            const userEmal = await verifyRefreshToken(refreshToken)
-            if(!userEmal) return createError(403, 'You don\'t have permission to access this resource.')
+            const userEmail = await verifyRefreshToken(refreshToken)
+            if(!userEmail) return createError(403, 'You don\'t have permission to access this resource.')
             
             // find user
             const foundUser = await User.findOne({ refreshToken }).exec()
             if(!foundUser) return createError(403, 'You don\'t have permission to access this resource.')
         
             // create new token
-            const accessToken = await signAccessToken(userEmal)
+            const accessToken = await signAccessToken(userEmail)
 
             return { 
                id: foundUser.id,

@@ -52,7 +52,7 @@ module.exports = {
             const result = await authSchema.validateAsync(input)
             if (!result) return createError(400, 'Email and password are required.')
             
-            // check for conflit || existing email in the database
+            // check for conflict || existing email in the database
             const exist = await User.findOne({ email: result.email }).exec()
             if(exist) return createError(409, 'This user already exist in our database') // Conflict
             try {
